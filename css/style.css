@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Playfair Display", "san-serif";
+}
+/* navbar starts */
+header{
+    padding: 50px 0;
+}
+
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    /* background: rgb(253, 170, 238); */
+}
+
+.logo{
+    float: left;
+    width: 12%;
+}
+
+.logo img{
+    width: 100%;
+    /* background: green; */
+}
+
+.menu{
+    margin: 5px 0;
+    width:75%;
+    float: right;
+    /* background: rgb(255, 248, 171); */
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 70px;
+    color: #626262;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/* navbar ends */
+
+
+/* banner starts */
+.b_image{
+    padding-bottom: 20px;
+}
+.b_image img{
+    width: 100%;
+    height: auto;
+}
+/* banner ends */
+
+/* getaway starts */
+.getaway{
+    padding:100px 0 30px;
+}
+.g_content{
+    overflow: hidden;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    color: #626262;    
+    /* border: 1px solid tomato; */
+}
+.light{
+    font-family: "Ubuntu", "san-serif";
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 30px;
+    font-weight: 400; 
+    margin: 10px 0 15px 0;
+}
+
+.text{
+    margin: 0;
+    line-height: 24px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.g_link{
+    margin-top: 40px;
+    display: inline-block;
+    color: #626262;
+    /* border: 1px solid green; */
+}
+/* getaway ends */
+
+/* blog starts */
+.blog{
+    padding: 0 0 100px;
+}
+.b_content{
+    overflow: hidden;
+    justify-content: space-between;    
+    /* border: 1px solid tomato; */
+}
+.b_item{
+    margin-top: 70px;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+.b_item:nth-child(even){
+    margin-left: 4%;
+}
+.b_img{
+    margin-bottom: 20px;
+}
+.b_img img{
+    width: 100%;
+}
+
+/* blog ends */
+
+/* news starts */
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    margin-bottom:50px ;
+}
+.signup{
+    text-align: center;
+}
+.s_title{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #626262;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 17px;
+    right: 0;
+}
+
+.s_form button:focus{
+    outline: 0;
+}
+
+/* news ends */
+
+
+/* blog2 starts */
+.blog2{}
+.load{
+    margin: 150px 0 100px;
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+    border: 1px solid #626262;
+    transition: .33s ease;
+}
+.load button:hover{
+    color: white;
+    background-color: #626262;
+}
+
+/* blog2 ends */
+
+
+/* footer starts */
+.connections{
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.footer{
+    width: 90%; 
+    margin: 0 auto;
+}
+.links{
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.pages{}
+
+.pages ul li{
+    float: left;
+}
+.pages ul li a{
+    margin-right: 20px;
+    color: black;
+}
+
+.social{
+    float: right;
+}
+
+.social ul{}
+
+.social ul li{
+    float: left;
+    margin: 0 auto;
+}
+
+.social ul li a{
+    margin: 0 20px;
+    color: black;
+}
+.social ul li:last-child a{
+    margin-right: 0;
+}
+
+
+
+
+/* footer ends */
